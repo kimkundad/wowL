@@ -2,7 +2,7 @@
 
 
 @section('title')
-WowBaccarat
+wowbaclaos ສູດບາທີ່ດີທີ່ສຸດ ແລະ ຖືກສຸດໃນປະເທດໄທ ອັນດັບ 1
 @stop
 
 @section('stylesheet')

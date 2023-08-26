@@ -2,7 +2,7 @@
 
 
 @section('title')
-Kingbar สูตรบาร์ที่ดีที่สุดและแม่นยำที่สุดในไทย อันดับ 1
+wowbaclaos ສູດບາທີ່ດີທີ່ສຸດ ແລະ ຖືກສຸດໃນປະເທດໄທ ອັນດັບ 1
 @stop
 
 @section('stylesheet')
