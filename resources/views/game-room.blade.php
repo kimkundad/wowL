@@ -133,7 +133,13 @@ Kingbar สูตรบาร์ที่ดีที่สุดและแม
       <img style="height: 55px" data-toggle="dropdown" src="{{ url('/assets/ic_menu-b0adaab54b2aa6d2744f804c258e77682ab007f619a9f1cb97b9eb7076c5ffbb.png') }}" aria-expanded="false">
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
         <a class="dropdown-item" rel="nofollow" data-method="delete" href="{{ url('/logout') }}">
-        <img style="height: 45px" src="{{ url('/assets/logout-2ab8e01ab6d1cc4c426c1d73566b74f880859fe0a6d884b28371137b41cbadcf.png') }}"></a>
+        <img style="height: 45px" src="{{ url('/assets/logout-2ab8e01ab6d1cc4c426c1d73566b74f880859fe0a6d884b28371137b41cbadcf.png') }}">
+      </a>
+      @if(Auth::user()->roles[0]['name'] === 'superadmin' || Auth::user()->roles[0]['name'] === 'admin')
+      <a class="dropdown-item" rel="nofollow" href="{{ url('admin/dashboard') }}" >
+        เข้าสู่หลังบ้าน
+      </a>
+      @endif
       </div>
     </div>
   </div>
